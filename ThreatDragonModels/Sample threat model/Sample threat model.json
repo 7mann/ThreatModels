@@ -89,6 +89,194 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 354,
+                "y": 152
+              },
+              "angle": 0,
+              "id": "b8c7a546-2867-4e01-95b8-8609f63d4306",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "P1 Receive GPS\nCoordinates"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7462693a-45fb-41b8-96d3-a7387e959942"
+              },
+              "target": {
+                "id": "b8c7a546-2867-4e01-95b8-8609f63d4306"
+              },
+              "vertices": [],
+              "id": "653328f3-55c6-4465-a4fa-9d8ee1f49312",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "F0: GPS coordinate",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "485152a6-edb2-40d1-a9ff-253aa50ccfa6"
+              },
+              "target": {
+                "id": "b8c7a546-2867-4e01-95b8-8609f63d4306"
+              },
+              "vertices": [],
+              "id": "5fc90314-4f13-4f10-bd05-9d5628c0595b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "F1: GPS coordinate",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "5c321557-a313-4f8e-820a-bb689775e57d"
+              },
+              "target": {
+                "id": "b8c7a546-2867-4e01-95b8-8609f63d4306"
+              },
+              "vertices": [],
+              "id": "3c4fb065-9c88-4525-b5b4-d7df2b1c6359",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "F2: GPS coordinate",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 320,
+                "y": 341
+              },
+              "angle": 0,
+              "id": "ead0df29-107e-4acd-8af5-0c5de04ccfc5",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "GPS Coordinate Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "b8c7a546-2867-4e01-95b8-8609f63d4306"
+              },
+              "target": {
+                "id": "ead0df29-107e-4acd-8af5-0c5de04ccfc5"
+              },
+              "vertices": [],
+              "id": "292267bd-26ca-4cc3-a8c5-009a062ad8f6",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "F4: GPS coordinate",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
