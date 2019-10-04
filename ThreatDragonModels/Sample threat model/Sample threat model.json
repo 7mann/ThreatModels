@@ -26,9 +26,11 @@
               "id": "7462693a-45fb-41b8-96d3-a7387e959942",
               "z": 1,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "3rd party device.\nNo control of the HW or SW in this device.",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "GPS Type A"
@@ -52,9 +54,11 @@
               "id": "485152a6-edb2-40d1-a9ff-253aa50ccfa6",
               "z": 2,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "3rd party device.\nNo control of the HW or SW in this device.",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "GPS Type B"
@@ -78,9 +82,11 @@
               "id": "5c321557-a313-4f8e-820a-bb689775e57d",
               "z": 3,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "3rd party device.\nNo control of the HW or SW in this device.",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "GPS Type C"
@@ -616,13 +622,13 @@
               "angle": 0,
               "id": "15e45367-5c8c-473e-8241-410186b61a59",
               "z": 19,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
                   "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
                   "title": "Generic tampering threat",
                   "type": "Tampering",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic tampering threat"
                 },
@@ -630,7 +636,7 @@
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
                   "title": "Generic repudiation threat",
                   "type": "Repudiation",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic repudiation threat"
                 },
@@ -638,7 +644,7 @@
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
                   "title": "Generic information disclosure threat",
                   "type": "Information disclosure",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic information disclosure threat"
                 },
@@ -646,20 +652,20 @@
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
                   "title": "Generic DoS threat",
                   "type": "Denial of service",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic DoS threat"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "GPS Fence Store"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
