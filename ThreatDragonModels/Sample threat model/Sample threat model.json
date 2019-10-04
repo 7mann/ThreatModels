@@ -125,7 +125,16 @@
               "target": {
                 "id": "b8c7a546-2867-4e01-95b8-8609f63d4306"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 227,
+                  "y": 135
+                },
+                {
+                  "x": 314,
+                  "y": 175
+                }
+              ],
               "id": "653328f3-55c6-4465-a4fa-9d8ee1f49312",
               "labels": [
                 {
@@ -824,6 +833,10 @@
                 {
                   "x": 727,
                   "y": 115
+                },
+                {
+                  "x": 725,
+                  "y": 167
                 }
               ],
               "id": "5b33ad55-23b9-48da-840a-15177316d918",
@@ -840,13 +853,39 @@
                 }
               ],
               "z": 25,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic informtion disclosure threat",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
